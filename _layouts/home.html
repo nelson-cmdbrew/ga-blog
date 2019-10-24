@@ -5,3 +5,14 @@
 {% for person in site.data.people %}
   {{ person.name }}, {{ person.occupation }}<br>
 {% endfor %}
+
+{% for file in site.static_files %}
+  {{ file.name }},
+  {{ file.basename }},
+  {{ file.extname }},
+  {{ file.path }}<br>
+
+  {% if file.image %}
+    <img src="{{ file.path }}" alt="{{ file.name }}">
+  {% endif %}
+{% endfor %}
