@@ -30,7 +30,7 @@ twitter_username: jekyllrb
 github_username:  jekyll
 
 # Build settings
-theme: jekyll-theme-hacker
+theme: minima
 plugins:
   - jekyll-feed
 
@@ -38,7 +38,7 @@ defaults:
   -
     scope:
       path: ''
-      type: 'posts'
+      type: 'post'
     values:
       layout: 'post'
       title: 'My Title'
