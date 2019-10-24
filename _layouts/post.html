@@ -3,6 +3,18 @@ layout: wrapper
 author: Nelson
 ---
 
+{% if page.title == "My Title" %}
+  This is the first post
+{% elsif page.title == "Welcome to Jekyll!" %}
+  This is the default page
+{% else %}
+  This is just another post
+{% endif %}
+
+{% for post in site.posts %}
+  <li><a style="{% if page.url == post.url %}color:red;{% endif %}" href="{{ post.url }}">{{ post.title }}</a></li>
+{% endfor %}
+
 <h2>{{ page.title }}</h2>
 <h3>{{ layout.author }}</h3>
 <hr>
