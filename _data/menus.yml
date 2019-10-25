@@ -1,6 +1,6 @@
 ---
 header:
-  - url: "/api"
-    title: API Documentation
-    identifier: api
-    weight: 1
+- url: "/api"
+  title: API Documentation
+  identifier: api
+  weight: 1
