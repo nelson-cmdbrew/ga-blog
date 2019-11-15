@@ -17,6 +17,6 @@ menu:
     identifier: item_JfwPnGo
 
 ---
-{%- page.richtext -%}
+{{ page.richtext }}
 
 123123
