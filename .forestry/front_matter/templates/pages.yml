@@ -18,5 +18,10 @@ fields:
     schema:
       format: markdown
   label: richtext
+- name: logo
+  type: file
+  config:
+    maxSize: 250
+  label: logo
 pages:
 - _posts/test.md
