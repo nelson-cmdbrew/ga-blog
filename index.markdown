@@ -17,3 +17,4 @@ menu:
     identifier: item_JfwPnGo
 
 ---
+{%- page.richtext -%}
