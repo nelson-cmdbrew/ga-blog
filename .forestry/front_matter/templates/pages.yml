@@ -24,5 +24,6 @@ fields:
     maxSize: 250
   label: logo
 pages:
+- 404.html
 - index.markdown
 - _posts/test.md
