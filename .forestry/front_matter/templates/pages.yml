@@ -9,5 +9,14 @@ fields:
 - type: text
   name: title
   label: title
+- name: richtext
+  type: textarea
+  default: ''
+  config:
+    required: false
+    wysiwyg: false
+    schema:
+      format: markdown
+  label: richtext
 pages:
 - _posts/test.md
