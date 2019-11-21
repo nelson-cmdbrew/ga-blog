@@ -24,7 +24,7 @@ fields:
     maxSize: 250
   label: logo
 pages:
+- index.markdown
 - dir1/donate.md
 - 404.html
-- index.markdown
 - _posts/test.md
