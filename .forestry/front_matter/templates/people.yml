@@ -12,15 +12,15 @@ fields:
   - type: text
     name: occupation
     label: occupation
-- name: posts
-  type: select
-  default: []
-  config:
-    required: false
-    options: []
-    source:
-      type: pages
-      section: jekyll-posts
-      file: 
-      path: 
-  label: posts
+  - name: post
+    type: select
+    default: []
+    config:
+      required: false
+      options: []
+      source:
+        type: pages
+        section: jekyll-posts
+        file: 
+        path: 
+    label: post
