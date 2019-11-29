@@ -1,5 +1,10 @@
+---
+- name: ''
+  occupation: ''
+  post: ''
 - name: Nelson
   occupation: Developer
-
+  post: _posts/2019-10-02-my-first-blog-post.md
 - name: Richard
   occupation: Developer
+  post: ''
