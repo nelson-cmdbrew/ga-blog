@@ -6,6 +6,21 @@ fields:
   name: layout
   label: layout
   hidden: true
+- name: type
+  type: select
+  default: pages
+  config:
+    required: false
+    options:
+    - pages
+    - '404'
+    - index
+    source:
+      type: simple
+      section: 
+      file: 
+      path: 
+  label: type
 - type: text
   name: title
   label: title
@@ -18,6 +33,9 @@ fields:
     schema:
       format: markdown
   label: richtext
+  showOnly:
+    field: type
+    value: pages
 - name: logo
   type: file
   config:
