@@ -41,8 +41,20 @@ fields:
   config:
     maxSize: 250
   label: logo
+- name: author
+  type: select
+  default: []
+  config:
+    required: false
+    options: []
+    source:
+      type: pages
+      section: people
+      file: 
+      path: 
+  label: Author
 pages:
-- index.markdown
 - dir1/donate.md
-- 404.html
 - _posts/test.md
+- index.markdown
+- 404.html
